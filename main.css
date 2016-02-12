@@ -1,19 +1,32 @@
 body {
   background-color:black;
 }
+
+.socialMediaHeader {
+  text-align: center;
+}
+
+.socialMediaHeader li {
+  display: inline-block;
+  list-style: none;
+}
+
+.socialMediaHeader li img {
+  max-width: 30px;
+}
 /*nav bar shit***********************************************************/
 
 nav {
   background-color: black;
-  padding: 1%;
   text-align: center;
+  padding: 2.5% 10%;
   border: solid lightgreen 6px;
 }
 
 nav ul li a {
   color: lightgreen;
-  /*padding:;*/
-  margin: 15%;
+  padding: 5%;
+  margin: 10%;
   font-family: 'Inconsolata', sans-serif ;
   text-decoration:none;
 }
